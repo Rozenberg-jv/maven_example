@@ -4,11 +4,7 @@ import lombok.*;
 
 import java.sql.Date;
 
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
-@ToString
+@Data
 public class Person {
 
     private int id;
